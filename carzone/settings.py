@@ -101,7 +101,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #     }
 # }
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Anuj@123@localhost:5432/carzone_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Anuj@123@localhost:5433/carzone_db')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
