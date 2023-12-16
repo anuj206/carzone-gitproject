@@ -1,0 +1,1078 @@
+[
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Anuj",
+        "last_name": "Yadav",
+        "car_id": 5,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "Austin",
+        "state": "Texas",
+        "email": "206anuj@gmail.com",
+        "phone": "9717433193",
+        "message": "I need more info about this car",
+        "user_id": 2,
+        "create_date": "2023-12-15T20:42:02.738Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Vipin ",
+        "last_name": "Yadav",
+        "car_id": 6,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "NYC",
+        "state": "New York",
+        "email": "171anuj@gmail.com",
+        "phone": "9717433193",
+        "message": "I want to buy this car.",
+        "user_id": 0,
+        "create_date": "2023-12-15T20:46:24.883Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Titu",
+        "last_name": "Yadav",
+        "car_id": 6,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "NYC",
+        "state": "NJ",
+        "email": "171anuj@gmail.com",
+        "phone": "9717433193",
+        "message": "i want this urgent",
+        "user_id": 3,
+        "create_date": "2023-12-15T21:03:40.671Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Titu",
+        "last_name": "Yadav",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "NYC",
+        "state": "New York",
+        "email": "171anuj@gmail.com",
+        "phone": "9717433193",
+        "message": "Test!!",
+        "user_id": 3,
+        "create_date": "2023-12-15T21:28:29.799Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Titu",
+        "last_name": "Yadav",
+        "car_id": 4,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Jaguar F-PACE",
+        "city": "NYC",
+        "state": "NY",
+        "email": "206anuj@gmail.com",
+        "phone": "",
+        "message": "This test email.",
+        "user_id": 3,
+        "create_date": "2023-12-15T21:29:28.658Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The 2017 Ferrari 488 GTB brings extreme performance to the supercar world and everything you would expect from a Ferrari. The 488 is powered by a turbocharged 3.9L V8 making 660 horsepower at 8,000 rpm and 560 pound-feet of torque at 3,000 rpm. Power is sent to the wheels by a 7-speed dual-clutch automatic transmission. Ferrari&#39;s Variable Torque Management system helps the 488 accelerate to 60 mph in an impressive 3.0 seconds, providing increasing torque as drivers shift up through the gears.<br />\r\n<br />\r\nWith the power and speed the vehicle is capable of producing, Ferrari has designed the body in a way to produce massive down-force to keep the driver in control at high speeds. Additionally, much of the body design has been created to maximize airflow for cooling, as well as enhance aerodynamics. Ferrari&#39;s Slide Slip Control System, active suspension dampening controls and an electronic differential, work together to provide the driver with an experience similar to if they were on a racetrack.</p>",
+        "car_photo": "photos/2023/12/09/1902536891_yS5RCsU.jpg",
+        "car_photo_1": "photos/2023/12/09/1902536917_tobzhmt.jpg",
+        "car_photo_2": "photos/2023/12/09/1902537043_KY4BCTS.jpg",
+        "car_photo_3": "photos/2023/12/09/1902537077_CrW1F5C.jpg",
+        "car_photo_4": "photos/2023/12/09/1902537082_97glKw3.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.4L Mid Engine V6",
+        "transmission": "Automatic",
+        "interior": "Gay",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "AA123456789",
+        "milage": 5,
+        "fuel_type": "Patrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2023-12-09T10:25:56Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The Ford Edge has three engines to choose from, all using a 6-speed automatic transmission. First is a mostly perfectly adequate front-wheel-drive turbocharged 2.0-liter four cylinder making 245 horsepower that can tow up to 3500 pounds. The 3.5-liter V6 making 280 horsepower doesn&#39;t cost much more. The twin-turbocharged 2.7-liter V6 is strong and confident with 315 horsepower.</p>\r\n\r\n<p>All-wheel drive is available. The system constantly sends some power to the rear wheels, and adds significant weight, cutting fuel mileage by two highway miles per gallon. Some systems nowadays send all the power to the front wheels until it&#39;s needed for traction at the rear, helping fuel mileage.</p>",
+        "car_photo": "photos/2023/12/09/1901478607.jpg",
+        "car_photo_1": "photos/2023/12/09/1901478618.jpg",
+        "car_photo_2": "photos/2023/12/09/1901478646.jpg",
+        "car_photo_3": "photos/2023/12/09/1901478672.jpg",
+        "car_photo_4": "photos/2023/12/09/1901478687.jpg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,Alarm System,ParkAssist,Reversing Camera,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Gray",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "AA321654987",
+        "milage": 8,
+        "fuel_type": "Patrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2023-12-09T10:32:34Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "NYC",
+        "color": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "Used",
+        "price": 35000,
+        "description": "<p>Ford&#39;s F-Series Super Duty pickup trucks are built on a fully boxed frame made of 95 percent high-strength steel. The platform shaves nearly 350 pounds from the curb weight while strength is increased by a factor of 24 over the previous generation&#39;s frame. Riding atop it is a new high-strength aluminum alloy body which Ford describes as military-grade.<br />\r\nThe F-Series Super Duty provides buyers with best-in-class towing capabilities. In properly equipped F-450s, that means up to 21,000 pounds of conventional capacity and an impressive 32,500-pound capacity when hooked up to a fifth wheel. Meanwhile, the F-250 offers best-in-class payload capacity of 4,200 pounds, while the F-350&#39;s best-in-class payload tops out at 7,630 pounds. In short, the Super Duty hauls.</p>",
+        "car_photo": "photos/2023/12/10/1894300905_FdCoJC2.jpg",
+        "car_photo_1": "photos/2023/12/10/1894300920.jpg",
+        "car_photo_2": "photos/2023/12/10/1900155012.jpg",
+        "car_photo_3": "photos/2023/12/10/1900155133_2z3mje9.jpg",
+        "car_photo_4": "photos/2023/12/10/1894300894.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Reversing Camera,Wind Deflector",
+        "body_style": "Pick Truck",
+        "engine": "V6",
+        "transmission": "Auto",
+        "interior": "Black",
+        "miles": 10000,
+        "doors": "4",
+        "passengers": 4,
+        "vin_no": "AA321569874",
+        "milage": 15,
+        "fuel_type": "Diesel",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2023-12-09T10:39:53Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "TX",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 35000,
+        "description": "<p>The Jaguar F-Pace is available with one of three different engines, two of which give the Jaguar excellent acceleration and one of which provides the Jaguar with surprising fuel economy. For those looking to save on gasoline, the F-Pace is available with a 2.0L turbocharged 4-cylinder diesel engine. Like most diesel engines, it combines a somewhat middling power output with a torque figure that may cause a double take. Horsepower is rated at 180, while torque is rated at 317 lb-ft.</p>",
+        "car_photo": "photos/2023/12/09/1902932542.jpg",
+        "car_photo_1": "photos/2023/12/09/1902932528.jpg",
+        "car_photo_2": "photos/2023/12/09/1902932514.jpg",
+        "car_photo_3": "photos/2023/12/09/1902932503.jpg",
+        "car_photo_4": "photos/2023/12/09/1902932542_iGCuDtJ.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "V7",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "AA456789123",
+        "milage": 10,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2023-12-09T11:10:02Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "CA",
+        "city": "LA",
+        "color": "Silver",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p>&nbsp;Toyota&#39;s 4Runner retains its body-on-frame architecture for 2018 and its ability to seat up to seven when equipped with an optional third row. It&#39;s powered by a V-6 engine and faces competition from the Jeep Grand Cherokee.</p>\r\n\r\n<p>The new Wilderness Package adds roof-rack crossbars, all-weather floor liners and a cargo tray. The TRD Enhancement Package, which is available for TRD versions of the SUV, adds 17-inch TRD matte-gray alloy wheels and a TRD aluminum front skid plate.</p>",
+        "car_photo": "photos/2023/12/10/1893633875.jpg",
+        "car_photo_1": "photos/2023/12/10/1893633884.jpg",
+        "car_photo_2": "photos/2023/12/10/1893633879.jpg",
+        "car_photo_3": "photos/2023/12/10/1896836883.jpg",
+        "car_photo_4": "photos/2023/12/10/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Land Cruiser",
+        "engine": "V6",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 20000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "AA152364789",
+        "milage": 10,
+        "fuel_type": "Patrol",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2023-12-10T04:52:54Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "CA",
+        "city": "LA",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 35000,
+        "description": "<p>Dating back to 1966 in international markets, the Toyota Corolla landed on U.S. shores in 1968. With a reputation for quality and dependability, the Corolla has become the best-selling car worldwide &mdash; to the tune of nearly 1.5 million per year in more than 150 countries. Now in its 12th generation, the Corolla is primarily known as a four-door sedan, but it&rsquo;s also been offered in coupe, hatchback and wagon form over the years. Attractive economy-car pricing has always been part of the Corolla&rsquo;s value proposition, though it has at times been criticized for being too conservative and for making some common features optional to keep the base price low.</p>",
+        "car_photo": "photos/2023/12/10/1900893299.jpg",
+        "car_photo_1": "photos/2023/12/10/1900893311.jpg",
+        "car_photo_2": "photos/2023/12/10/1900893319.jpg",
+        "car_photo_3": "photos/2023/12/10/1900893329.jpg",
+        "car_photo_4": "photos/2023/12/10/1900893391.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "V7",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 20000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "AA32124565989",
+        "milage": 15,
+        "fuel_type": "Patrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2023-12-10T04:57:28Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Manager",
+        "photo": "photos/2023/12/08/avatar-1_Vg97B4U.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T12:16:46.779Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2023/12/08/avatar-2_II7Puwt.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T12:17:40.483Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2023/12/08/avatar-4.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T12:18:24.491Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Web Developer",
+        "photo": "photos/2023/12/08/avatar-11_tlyZLhB.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T12:19:19.141Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 7,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2023/12/08/avatar-12.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T12:22:23.323Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 8,
+    "fields": {
+        "first_name": "Will",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2023/12/08/avatar-3_Hy7l8CO.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T13:39:36.476Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 9,
+    "fields": {
+        "first_name": "Sara",
+        "last_name": "Bareilles",
+        "designation": "Web Developer",
+        "photo": "photos/2023/12/08/avatar-9.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://www.google.com/",
+        "created_at": "2023-12-08T13:43:13.579Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$A0UVCLLz7u0EaKG22b7hcr$q9i8u/yAruJ/uKG8D921VG+DFDyQowydz5tRx4skTds=",
+        "last_login": "2023-12-15T15:16:53Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Django",
+        "last_name": "Admin",
+        "email": "206anuj@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-12-08T11:52:09Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$GnRItFc7l5HgLMAiBxyC6o$Wm+eYD5kxm1tfnzP55TreoCkJE2cAZfecfjQtkU5/2I=",
+        "last_login": "2023-12-15T15:03:40.692Z",
+        "is_superuser": false,
+        "username": "anuj",
+        "first_name": "Anuj",
+        "last_name": "Yadav",
+        "email": "y.206anuj@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-14T15:02:38.813Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$bb41hr46gkXmqd9ZBysUpC$lNmyc6Zo/vMOIyKpu/qycCK9+R7dfpBfwXUqMA+IWcI=",
+        "last_login": "2023-12-15T15:32:59.695Z",
+        "is_superuser": false,
+        "username": "titu",
+        "first_name": "Titu",
+        "last_name": "Yadav",
+        "email": "171anuj@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-14T15:05:29.441Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "65sg9qarhh0zfouf30l5remcaow8srrb",
+    "fields": {
+        "session_data": ".eJxVjDEOwyAQBP9CHSGf4DCkTJ83oDsOBycRloxdWfl7bMlFUmyzM7ubirQuJa4tz3EUdVWgLr8dU3rlegB5Un1MOk11mUfWh6JP2vR9kvy-ne7fQaFW9jX6DMZb4wKL496AeHSYe8YkgonY-A7AhDSQI2th2IMULEjumCGpzxfTOTfG:1rBuMT:S3KolEd6o26E2pCW4npVQMGp41wtDVof8U1BS0QPbwk",
+        "expire_date": "2023-12-23T10:15:05.767Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9h3ji8xfq8rz928kxvof520q4pwbgn6v",
+    "fields": {
+        "session_data": ".eJxVjDEOwyAQBP9CHSGf4DCkTJ83oDsOBycRloxdWfl7bMlFUmyzM7ubirQuJa4tz3EUdVWgLr8dU3rlegB5Un1MOk11mUfWh6JP2vR9kvy-ne7fQaFW9jX6DMZb4wKL496AeHSYe8YkgonY-A7AhDSQI2th2IMULEjumCGpzxfTOTfG:1rDnvB:82fcrOhx4al1Spo8V1qWXr_nnNG6_G59u5830cHsRsk",
+        "expire_date": "2023-12-28T15:46:45.877Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "izk9dkfy5aihknlk6bgecmttdhomp90p",
+    "fields": {
+        "session_data": ".eJxVjDEOwyAQBP9CHSGf4DCkTJ83oDsOBycRloxdWfl7bMlFUmyzM7ubirQuJa4tz3EUdVWgLr8dU3rlegB5Un1MOk11mUfWh6JP2vR9kvy-ne7fQaFW9jX6DMZb4wKL496AeHSYe8YkgonY-A7AhDSQI2th2IMULEjumCGpzxfTOTfG:1rCzXG:vtvsKLifPwmS1IPZ9RaBp4jD5EYdU1Wo7nS5rP4zmfE",
+        "expire_date": "2023-12-26T09:58:42.201Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wks67uzfzs9a5bjq5bty5fywld2cfg76",
+    "fields": {
+        "session_data": ".eJxVjDEOwyAQBP9CHSGf4DCkTJ83oDsOBycRloxdWfl7bMlFUmyzM7ubirQuJa4tz3EUdVWgLr8dU3rlegB5Un1MOk11mUfWh6JP2vR9kvy-ne7fQaFW9jX6DMZb4wKL496AeHSYe8YkgonY-A7AhDSQI2th2IMULEjumCGpzxfTOTfG:1rDlom:h6fKnm7F0xRfeviUoUAPXUA8nb37t98-SkWK8dpS-MM",
+        "expire_date": "2023-12-28T13:32:00.899Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "provider_id": "",
+        "name": "Facebook Login",
+        "client_id": "321082684153089",
+        "secret": "a5e671cd2618d88bdc7889d38316b53f",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "Google Login",
+        "client_id": "1056424456513-hhhvkj1ajr7is973nfuanshodeutapon.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-12-08T12:16:46.780Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Brandon - Manager",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-12-08T12:17:40.484Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Michelle - Support Manager",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-12-08T12:18:24.492Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Stone - Creative Director",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-12-08T12:19:19.143Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Martin - Web Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-12-08T12:21:32.819Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Martin - Web Developer",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-12-08T12:22:23.325Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "John - Web Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-12-08T12:27:08.525Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "John - CEO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Last name\", \"Designation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-12-08T12:27:41.309Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Stone - Creative Director",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-12-08T13:39:36.479Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "8",
+        "object_repr": "Will - Founder",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-12-08T13:43:13.581Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "9",
+        "object_repr": "Sara - Web Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-12-09T10:26:00.243Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-12-09T10:28:23.181Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Condition\", \"Car photo 1\", \"Car photo 2\", \"Car photo 3\", \"Car photo 4\", \"Engine\", \"Transmission\", \"Interior\", \"Miles\", \"Vin no\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-12-09T10:32:40.726Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-12-09T10:39:54.733Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-12-09T11:10:04.950Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-12-09T11:14:26.050Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-12-09T11:17:30.334Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-12-09T11:27:54.588Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-12-09T11:40:48.077Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-12-10T03:05:28.048Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo\", \"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-12-10T03:06:43.632Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-12-10T03:07:46.564Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo 1\", \"Car photo 2\", \"Car photo 3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-12-10T03:11:48.887Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo\", \"Car photo 1\", \"Car photo 2\", \"Car photo 3\", \"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-12-10T04:52:56.563Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-12-10T04:57:29.873Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-12-15T10:54:55.149Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-12-15T10:55:39.973Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-12-15T11:14:38.776Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-12-15T15:25:12.030Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "anuj7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-12-15T15:25:12.033Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "anuj8",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-12-15T15:25:35.104Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+}
+]
