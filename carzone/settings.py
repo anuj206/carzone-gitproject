@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import django_heroku
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -91,6 +92,17 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd31mfnnkafo0oo',
+        'USER': 'baomnduhtoldkt',
+        'PASSWORD': '5ecbb82981b930ccab1fdb512a9a153f96b323b7507020338dcab08e050ca2ab',
+        'HOST': 'ec2-3-210-173-88.compute-1.amazonaws.com',
+        'PORT': '5432'
+    }
+}
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
@@ -101,7 +113,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #     }
 # }
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Anuj@123@localhost:5432/carzone_db')}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Anuj@123@localhost:5432/carzone_db')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -167,3 +179,5 @@ EMAIL_USE_TLS = True
 
 # Whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+django_heroku.settings(locals())
